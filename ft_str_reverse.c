@@ -6,7 +6,7 @@
 /*   By: gacalaza <gacalaza@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/21 17:23:20 by gacalaza          #+#    #+#             */
-/*   Updated: 2022/11/21 23:28:27 by gacalaza         ###   ########.fr       */
+/*   Updated: 2023/01/13 19:48:10 by gacalaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ int	main(int argc, char *argv[])
 	result = ft_print_message(i, argv);
 	if (!result)
 		return (0);
+	free (result);
 	return (0);
 }
 

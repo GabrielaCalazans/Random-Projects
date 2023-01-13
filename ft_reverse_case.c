@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcase.c                                       :+:      :+:    :+:   */
+/*   ft_reverse_case.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gacalaza <gacalaza@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/23 02:31:16 by gacalaza          #+#    #+#             */
-/*   Updated: 2022/11/23 03:00:53 by gacalaza         ###   ########.fr       */
+/*   Updated: 2023/01/13 20:18:37 by gacalaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ int	main(int argc, char *argv[])
 	result = ft_print_message(i, argv);
 	if (!result)
 		return (0);
+	free (result);
 	return (0);
 }
 
